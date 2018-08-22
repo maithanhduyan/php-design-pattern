@@ -1,4 +1,8 @@
 <?php
+require'Shape.php';
+require"Rectangle.php";
+require'Square.php';
+require('Circle.php');
 class ShapeFactory
 {
     public function getShape($type) {
@@ -14,7 +18,7 @@ class ShapeFactory
                 return new Rectangle;
                 break;
             default:
-                return null
+                return null;
                 break;
         }
         return null;
