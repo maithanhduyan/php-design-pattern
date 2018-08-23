@@ -1,5 +1,5 @@
 <?php
-require ("Shape.php");
+include ('Shape.php');
 class Rectangle implements Shape
 {
     public function draw() {

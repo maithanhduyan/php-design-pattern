@@ -1,8 +1,8 @@
 <?php
-require'Shape.php';
-require"Rectangle.php";
-require'Square.php';
-require('Circle.php');
+include('Shape.php');
+include('Rectangle.php');
+include('Square.php');
+include('Circle.php');
 class ShapeFactory
 {
     public function getShape($type) {
